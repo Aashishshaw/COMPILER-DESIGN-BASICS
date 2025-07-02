@@ -19,4 +19,12 @@ This program is especially useful for educational purposes, helping students und
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-QUE2 : 
+QUE2 : This project demonstrates the implementation of a simple lexical analyzer using the C programming language. Lexical analysis is the first phase of a compiler, where the source code is scanned to break it into smaller meaningful units called tokens. These tokens are then categorized into various types such as keywords, identifiers, operators, numbers, and special characters.
+
+The primary objective of this program is to simulate how a compiler identifies these tokens in source code. The lexical analyzer reads input from a text file (input.txt) containing C-like code. As it processes each character, it constructs strings and matches them against a list of keywords. If the word matches a known keyword, it is classified accordingly; otherwise, it is treated as an identifier or number depending on its structure. Operators such as +, -, =, and comparison symbols are also recognized and printed along with their type.
+
+This program is written in standard C, using libraries such as stdio.h, string.h, and ctype.h. It was developed and tested on platforms like Code::Blocks and Visual Studio Code, using the GCC compiler. It is also compatible with Linux-based terminals and online C compilers such as JDoodle and OnlineGDB.
+
+The purpose of this project is educational. It helps students understand how compilers begin processing code by scanning the input and recognizing its basic building blocks. While simple, this lexical analyzer provides the foundational concepts needed to understand more advanced topics like syntax analysis and code generation.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
